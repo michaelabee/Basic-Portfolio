@@ -1,0 +1,74 @@
+header {
+    background: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 25px; 
+}
+
+#name {
+    background:#4aaaa5;
+    font-size:15px;
+    text-align: left;
+    color:white;
+    width: 30%;
+    float:left;
+}
+
+#links{
+    text-align:right;
+    font-size: 10px;
+    color: white;
+    width: 70%;
+    float:right;
+}
+
+.main-info {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 690px;
+    background-color:#dddddd;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: -25%;
+    border-style:solid;
+    border-color:#dddddd;
+    border-width:100px;
+}
+
+h3 {
+    color:#4aaaa5;
+    text-align: left;
+    font-size: 25px;
+    border-bottom-width: 20px;
+    border-color:#666666;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color:white;
+    font-size:10px;
+    text-align: center;   
+}
+
+#bio-image{
+    width:200px;
+}
+
+form {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.form-control{
+    width:500px;
+    padding: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.form-text {
+    text-align: left;
+    left-margin:50%;
+}
