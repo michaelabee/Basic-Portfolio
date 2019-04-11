@@ -1,60 +1,90 @@
 header {
-    background: #ffffff;
+    background-color:white;
+    margin:0;
+    padding:0;
+    height:75px;
+    border-bottom:50px;
+    border-left:100px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-bottom: 25px; 
 }
 
-#name {
-    background:#4aaaa5;
-    font-size:15px;
-    text-align: left;
-    color:white;
-    width: 30%;
+body {
+    margin:0;
+    padding:0;
+    background:white;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+section {
+    border-style: solid;
+    border-color: #dddddd;
+    border-top-width: 50px;
+    border-right-width:180px;
+    border-bottom-width:400px;
+    border-left-width:180px;
+}
+
+img {
+    width:175px;
+    position: relative;
     float:left;
 }
-
-#links{
-    text-align:right;
-    font-size: 10px;
-    color: white;
-    width: 70%;
-    float:right;
-}
-
-.main-info {
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    width: 690px;
-    background-color:#dddddd;
-    text-align: center;
-    margin-left: 25%;
-    margin-right: -25%;
-    border-style:solid;
-    border-color:#dddddd;
-    border-width:100px;
-}
-
-h3 {
-    color:#4aaaa5;
-    text-align: left;
-    font-size: 25px;
-    border-bottom-width: 20px;
-    border-color:#666666;
-}
-
-.footer {
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    padding:0;
+    border-top:50px;
+    border-top:#4aaaa5;
+    border-style:solid;
     width: 100%;
     background-color: #666666;
+    height:30px;
     color:white;
-    font-size:10px;
-    text-align: center;   
+    font-size:12px;
+    text-align: center;
 }
 
-#bio-image{
-    width:200px;
+.title{
+    height:90%;
+    display:inline-block;
+    background:#4aaaa5;
+    color:white;
+    font-size:35px;
+    text-align:left;
+    margin-left: 18px;
+    margin-right: 150px;
 }
+.links{
+    height:100%;
+    display:inline-block;
+    text-align:right;
+    color: grey;
+    font-size:20px;
+    margin-left:70px;
+}
+
+#about{
+    color:#4aaaa5;
+    font-weight:bold;
+    size:35px;
+    border-bottom:1px;
+    border-bottom-color: #666666;
+    border-top-color:white;
+    border-left-color:white;
+    border-right-color:white;
+    border-style:solid;
+}
+
+.contact-title{
+    height:100%;
+    display:inline-block;
+    background:#4aaaa5;
+    color:white;
+    font-size:16px;
+    text-align:left;
+    margin-left: 18px;
+    margin-right: 150px;
+   }
 
 form {
     margin-top: 75px;
@@ -70,5 +100,5 @@ form {
 
 .form-text {
     text-align: left;
-    left-margin:50%;
+    margin-left:50%;
 }
